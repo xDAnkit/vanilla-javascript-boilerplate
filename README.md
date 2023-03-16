@@ -23,6 +23,7 @@
 ### What this project consist of?
 
 - ESLint
+- AirBnB Style Guide with ESLint
 - Prettier
 - Husky
 - ES6 Module System
