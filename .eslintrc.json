@@ -12,6 +12,7 @@
   "rules": {
     "no-console": 0,
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
-    "import/extensions": [0, { "js": "always" }]
+    "import/extensions": [0, { "js": "always" }],
+    "linebreak-style": 0
   }
 }
