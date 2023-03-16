@@ -1,0 +1,32 @@
+{
+  "name": "vanilla-js-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a Vanilla JS boilerplate with ESLint, Prettier, Husky & important tooling",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "init": "npm install",
+    "prepare": "husky install",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./assets/",
+    "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx ./assets/"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "vanilla",
+    "boilerplate"
+  ],
+  "author": "xdankit",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "prettier": "2.8.4"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown && npm run lint"
+  }
+}
