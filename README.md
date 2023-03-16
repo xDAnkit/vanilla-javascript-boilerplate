@@ -3,6 +3,7 @@
 ### What do you need to start working with this project
 
 - Install VSCode
+- Install `EsLint` Extension from VSCode Extensions
 - Download & Install `NodeJS`
 - Clone this repo
 
