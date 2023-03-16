@@ -8,6 +8,7 @@
     "init": "npm install",
     "prepare": "husky install",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./assets/",
+    "pretter:fix": "prettier --write --ignore-unknown",
     "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx ./assets/"
   },
   "keywords": [
@@ -27,6 +28,6 @@
     "prettier": "2.8.4"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown && npm run lint"
+    "**/*": "npm run pretter:fix"
   }
 }
